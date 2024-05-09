@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Weather.css" />
+    <title>WeatherCheck</title>
+  </head>
+  <body>
+    <main class="Main">
+      <div class="location">
+        <input
+          class="inputCity"
+          type="text"
+          placeholder="Enter the city name"
+        />
+        <button class="search" onclick="search()">S</button>
+      </div>
+      <div class="centrediv">
+        <!-- Upper -->
+        <div class="upper">
+          <div class="cityName">pune</div>
+          <div class="temp">Enter a City</div>
+          <div class="weatherDisc">--</div>
+        </div>
+        <!-- Down -->
+        <div class="down">
+          <div class="pressure">
+            <div class="pre">Pressure</div>
+            <div class="valueP">00</div>
+          </div>
+          <div class="humidity">
+            <div class="hum">Humidity</div>
+            <div class="valueH">00</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="Weather.js"></script>
+  </body>
+</html>

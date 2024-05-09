@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.Main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.location {
+  margin-bottom: 20px;
+}
+
+.centrediv {
+  height: 80%;
+  width: 30%;
+  border: 2px solid white;
+  border-radius: 5%;
+}
+.upper {
+  height: 70%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.temp {
+  font-size: 4.5rem;
+}
+.weatherDisc {
+  font-size: 3.5rem;
+}
+.down {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-evenly;
+}
+.pressure {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.humidity {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
