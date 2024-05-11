@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.box {
+  height: 30px;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  font-size: 40px;
+}
